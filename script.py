@@ -73,9 +73,6 @@ def main():
     plt.legend()
     plt.show()
 
-    #print(idx)
-
-
 
 if __name__ == "__main__":
     main()
