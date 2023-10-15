@@ -27,4 +27,5 @@ Plot displaying the series of measured data together with the values estimated b
 - rows containing NaN values are being dropped
 - original time string column is being replaced by a number of integers describing the time value
 - use of traintestsplit
-- use of standard scaled
+- use of standard scaler
+- basic cleaning of outliers
