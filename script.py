@@ -37,6 +37,9 @@ def main():
     df_copy['Hour'] = df_copy['Time'].dt.hour + df_copy['Time'].dt.minute / 60
     df_copy = df_copy.drop("Time", axis=1) # dropping the Time string column
 
+    mask = (df_copy["Battery discharging"]>18000) | (df_copy["Consumption"]>100000) | (df_copy["Grid consumption"]>77000) | (df_copy["Grid consumption"]<22000) # mask to drop outliers
+    df_copy.drop(df_copy[mask].index, inplace=True) # dropping outliers
+    
     X = df_copy.drop(quantity_name, axis=1) 
     y = df_copy[quantity_name]
 
