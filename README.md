@@ -1,4 +1,4 @@
-#WATTSTOR ASSIGNMENT - REGRESSION MODEL
+#ASSIGNMENT - REGRESSION MODEL
 
 Prerequisities: Python 3.6 or higher
 Required Python libraries: pandas, scikit-learn, matplotlib, seaborn
