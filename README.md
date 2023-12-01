@@ -3,7 +3,7 @@
 Prerequisities: Python 3.6 or higher
 Required Python libraries: pandas, scikit-learn, matplotlib, seaborn
 
-Purpose of this script written in python is to perform regression on a given csv file in a specific format as provided by Wattstor. In this particular case a RandomForestRegressor machine learning model was used.
+Purpose of this script written in python is to perform regression on a given csv file in a specific format as provided by the company. In this particular case a RandomForestRegressor machine learning model was used for its accuracy compared to other tested models.
 
 #USAGE
 
@@ -29,3 +29,4 @@ Plot displaying the series of measured data together with the values estimated b
 - use of traintestsplit
 - use of standard scaler
 - basic cleaning of outliers
+- GridSearchCV wasn't included for it's negligible influence on the final values
