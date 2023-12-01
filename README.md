@@ -3,7 +3,8 @@
 Prerequisities: Python 3.6 or higher
 Required Python libraries: pandas, scikit-learn, matplotlib, seaborn
 
-Purpose of this script written in python is to perform regression on a given csv file in a specific format as provided by the company. In this particular case a RandomForestRegressor machine learning model was used for its accuracy compared to other tested models.
+Purpose of this script written in python is to perform regression on a given csv file in a specific format as provided by the company. 
+In this particular case a RandomForestRegressor machine learning model was used for its accuracy compared to other tested models.
 
 #USAGE
 
